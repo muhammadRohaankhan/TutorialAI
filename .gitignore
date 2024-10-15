@@ -1,0 +1,10 @@
+# pycache
+__pycache__
+
+# Data files
+*.csv
+*.xlsx'
+
+# Data folders
+Output_File/*
+Output_File/costing

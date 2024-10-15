@@ -1,3 +1,4 @@
+import datetime
 import json
 import pandas as pd
 from config import OUTPUT_FILE_PATH
@@ -19,8 +20,14 @@ def evaluate():
         return jsonify({"status": "error", "message": "Missing file path or instruction file."})
 
     instructions = load_instructions(instruction_file)
-    df = pd.read_csv(file_path, encoding='cp1252')
+    try:
+        df = pd.read_csv(file_path, encoding='cp1252')
+    except Exception as e:
+        print(e)
+        df = pd.read_csv(file_path, encoding='utf-8')
     evaluations = []
+
+    ts = int(datetime.datetime.now().timestamp())
 
     for row_idx, row in df.iterrows():
         if row.isnull().all():
@@ -64,8 +71,7 @@ def evaluate():
             "GPT Response": json.dumps(response, ensure_ascii=False),
             "Prompt": messages
         })
-        save_to_csv(OUTPUT_FILE_PATH, evaluations)
-
+        save_to_csv(OUTPUT_FILE_PATH.replace(".csv", f"_{str(ts)}.csv"), evaluations)
     print("Evaluation complete.")
     return jsonify({"status": "success", "message": "Evaluation complete.", "evaluations": evaluations})
 
