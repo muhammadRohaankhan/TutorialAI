@@ -19,7 +19,7 @@ def evaluate():
         return jsonify({"status": "error", "message": "Missing file path or instruction file."})
 
     instructions = load_instructions(instruction_file)
-    df = pd.read_csv(file_path, encoding='utf-8')
+    df = pd.read_csv(file_path, encoding='cp1252')
     evaluations = []
 
     for row_idx, row in df.iterrows():
