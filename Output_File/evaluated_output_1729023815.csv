@@ -1,0 +1,199 @@
+Question Number,Main Statements,child statement,Category,Question,Type of Question,Total marks,Individual Marks,Student Answer,Label Image,Correct Answer,diagram image link answer,Reason for Correct Answer,Marking Scheme,Possible Wrong Answers,Topic,Unnamed: 16,Unnamed: 17,Unnamed: 18,Unnamed: 19,Unnamed: 20,GPT Response,Prompt
+3.0,nan,nan,nan,Define Le Chatelier's principle,Short Question,9.0,2.0,"""Le Chatelier's principle states that a reaction will always go to completion if conditions are changed.""",nan,"M1: If a change in conditions occurs,
+M2: The equilibrium shifts to minimize the change in conditions.
+Lower.",nan,"Le Chatelier's principle states that if an external change is applied to a system at equilibrium, the system will adjust itself in such a way as to counteract the change and restore a new equilibrium. For example, if the concentration of a reactant is increased, the equilibrium will shift to the right to consume the added reactant.",M1 (if a change in conditions occurs) the equilibrium shifts M2 to minimise the change in conditions,M1 (if a change in conditions occurs) the equilibrium shifts M2 to minimise the change in conditions,Mechanics,nan,nan,nan,nan,nan,"{""evaluations"": [{""id"": ""1"", ""obtained_marks"": 0, ""total_marks"": 2, ""Strict Marking"": ""The candidate's answer does not accurately define Le Chatelier's principle. The definition provided is incorrect as it states that a reaction will always go to completion, which is not a part of the principle. The correct definition involves the shift of equilibrium to minimize changes in conditions."", ""Marks Allocation"": ""Due to the incorrect definition and lack of relevant details, no marks are awarded for this response.""}]}","[{'role': 'user', 'content': 'Main Statements: nan, Child Statement: nan, Question: Define Le Chatelier\'s principle, Individual Marks: 2.0, Student Answer: ""Le Chatelier\'s principle states that a reaction will always go to completion if conditions are changed."", Marking Scheme: M1 (if a change in conditions occurs) the equilibrium shifts M2 to minimise the change in conditions'}]"
+3.0,"Reaction 1 describes the reversible reaction between yellow Fe3+(aq) and colourless SCN–(aq) to produce red FeSCN2+(aq)
+
+reaction 1 Fe3+(aq) + SCN–(aq) --- FeSCN2+(aq) ?H = –x kJmol–1
+yellow colourless red","A mixture of Fe3+(aq), SCN–(aq) and FeSCN2+(aq) is at equilibrium at 20°C.
+The temperature of this mixture is then increased to 50°C and allowed to reach equilibrium.
+Deduce the changes that occur, if any, in the equilibrium mixture at 50°C compared to the
+equilibrium mixture at 20°C.",nan,"change in appearance
+...........................................................................................................................................
+-change in relative concentration of FeSCN2+(aq)
+...........................................................................................................................................
+-change in value of the equilibrium constant, Kc
+............................................................................",Long Question,9.0,3.0,"The solution becomes darker red
+""Higher concentration of FeSCN 2+
+Lower",nan,"Paler red / more yellow / less orange.
+Lower. 
+Lower.",nan,"The forward reaction is exothermic (???=?x kJ/mol), meaning heat is released when FeSCN 2+ is formed. When the temperature is increased to 50°C, the equilibrium will shift in the endothermic direction (to the left) to counteract the added heat.
+As a result, the concentration of the red-colored FeSCN 2+ decreases, making the mixture less red (paler red) and more yellow due to the increased concentration of Fe3+ and SCN-
+
+Change in Relative Concentration of FeSCN2+. As the equilibrium shifts to the left, the concentration of FeSCN 2+(the red product) decreases.
+
+Change in Value of the Equilibrium Constant, K??
+Since the reaction is exothermic, increasing the temperature decreases the value of K??
+because the equilibrium shifts to the left (toward the reactants).
+","M1 change in appearance
+paler red / more yellow / less orange
+M2 change in relative concentration of FeSCN2+(aq)
+lower
+M3 change in value of the equilibrium constant,
+Kc
+lower","M1 change in appearance
+paler red / more yellow / less orange
+M2 change in relative concentration of FeSCN2+(aq)
+lower
+M3 change in value of the equilibrium constant,
+Kc
+lower",units and dimenions,nan,nan,nan,nan,nan,"{""evaluations"": [{""id"": ""1(a)(i)"", ""obtained_marks"": 1, ""total_marks"": 1, ""Strict Marking"": ""The candidate correctly states that the solution becomes darker red, which indicates a change in appearance. However, the answer does not mention the expected paler red, more yellow, or less orange as per the marking scheme."", ""Marks Allocation"": ""The candidate should be awarded partial marks for recognizing a change in appearance, but not full marks due to the lack of specific detail.""}, {""id"": ""1(a)(ii)"", ""obtained_marks"": 1, ""total_marks"": 1, ""Strict Marking"": ""The candidate states 'Higher concentration of FeSCN2+', which is incorrect as the marking scheme indicates a lower concentration. However, the candidate's response indicates an understanding of the concept of concentration change."", ""Marks Allocation"": ""The candidate should be awarded partial marks for attempting to address the change in concentration, despite the incorrect direction.""}, {""id"": ""1(a)(iii)"", ""obtained_marks"": 0, ""total_marks"": 1, ""Strict Marking"": ""The candidate did not provide an answer regarding the change in the value of the equilibrium constant, Kc."", ""Marks Allocation"": ""Due to the absence of a response, no marks are awarded for this part of the question.""}]}","[{'role': 'user', 'content': 'Main Statements: Reaction 1 describes the reversible reaction between yellow Fe3+(aq) and colourless SCN(aq) to produce red FeSCN2+(aq)\n\nreaction 1 Fe3+(aq) + SCN(aq) --- FeSCN2+(aq) ?H = x kJmol1\nyellow colourless red, Child Statement: A mixture of Fe3+(aq), SCN(aq) and FeSCN2+(aq) is at equilibrium at 20C.\nThe temperature of this mixture is then increased to 50C and allowed to reach equilibrium.\nDeduce the changes that occur, if any, in the equilibrium mixture at 50C compared to the\nequilibrium mixture at 20C., Question: change in appearance\n...........................................................................................................................................\n-change in relative concentration of FeSCN2+(aq)\n...........................................................................................................................................\n-change in value of the equilibrium constant, Kc\n............................................................................, Individual Marks: 3.0, Student Answer: The solution becomes darker red\n""Higher concentration of FeSCN 2+\nLower, Marking Scheme: M1 change in appearance\npaler red / more yellow / less orange\nM2 change in relative concentration of FeSCN2+(aq)\nlower\nM3 change in value of the equilibrium constant,\nKc\nlower'}]"
+3.0,"(c) In another experiment, equimolar amounts of Fe3+(aq) and SCN–(aq) are mixed together and
+allowed to reach equilibrium. The total volume of the mixture is 25.0cm3.
+
+reaction 1 Fe3+(aq) + SCN–(aq) FeSCN2+(aq)
+
+","At equilibrium the mixture contains:
+
+• [SCN–] = 1.30 × 10–3moldm–3
+• [FeSCN2+] = 0.300 × 10–3moldm–3",nan,"Calculate the initial amount, in mol, of Fe3+(aq) added to SCN–(aq) to produce this
+mixture.",Numerical,9.0,2.0,"Find initial concentration of SCN-
+[SCN? initial]=[SCNeqm?]+[FeSCN2+] 
+=(1.30×10^?3)+(0.300×10^?3) =1.60×10^?3 mol dm?3",nan,"Find initial concentration of SCN-
+[SCN? initial]=[SCNeqm?]+[FeSCN2+] 
+=(1.30×10^?3)+(0.300×10^?3) =1.60×10^?3 mol dm?3",nan,"M1: To find the initial concentration of SCN?
+, we add the concentration of SCN? at equilibrium to the concentration of FeSCN2,, because for every mole of FeSCN2+ formed, 1 mole of SCN? is consumed.
+M2: The initial amount of Fe 3+ is calculated by multiplying the concentration of SCN?
+(as they are equimolar) by the total volume of the solution in dm3","M1 deduce the concentration of SCN– present in initial mixture
+[SCN– eq’m] = [Fe3+ eq’m] = [original SCN-] – [FeSCN2+ produced]
+1.30
+? 10-3 + 0.300
+? 10-3 = 1.60
+? 10-3 mol dm-3
+M2 find initial amount of Fe3+ initially
+M1
+? 25 / 1000 = amount of Fe3+ added initially = 4.00
+? 10-5 (mol)","M1 deduce the concentration of SCN– present in initial mixture
+[SCN– eq’m] = [Fe3+ eq’m] = [original SCN-] – [FeSCN2+ produced]
+1.30
+? 10-3 + 0.300
+? 10-3 = 1.60
+? 10-3 mol dm-3
+M2 find initial amount of Fe3+ initially
+M1
+? 25 / 1000 = amount of Fe3+ added initially = 4.00
+? 10-5 (mol)",Power and Energy,nan,nan,nan,nan,nan,"{""evaluations"": [{""id"": ""1(c)(i)"", ""obtained_marks"": 1, ""total_marks"": 2, ""Strict Marking"": ""The candidate has correctly deduced the initial concentration of SCN- using the equilibrium concentrations provided. However, the notation used in the answer is unclear due to the use of '?' instead of proper scientific notation."", ""Marks Allocation"": ""The candidate should be awarded 1 mark for correctly applying the formula to find the initial concentration, but loses 1 mark for the unclear notation.""}, {""id"": ""1(c)(ii)"", ""obtained_marks"": 0, ""total_marks"": 2, ""Strict Marking"": ""The candidate did not provide a calculation for the initial amount of Fe3+ added, which is required to complete the question. The answer is incomplete."", ""Marks Allocation"": ""Due to the absence of a calculation for the initial amount of Fe3+, no marks are awarded for this part of the question.""}]}","[{'role': 'user', 'content': 'Main Statements: (c) In another experiment, equimolar amounts of Fe3+(aq) and SCN(aq) are mixed together and\nallowed to reach equilibrium. The total volume of the mixture is 25.0cm3.\n\nreaction 1 Fe3+(aq) + SCN(aq) FeSCN2+(aq)\n\n, Child Statement: At equilibrium the mixture contains:\n\n [SCN] = 1.30  103moldm3\n [FeSCN2+] = 0.300  103moldm3, Question: Calculate the initial amount, in mol, of Fe3+(aq) added to SCN(aq) to produce this\nmixture., Individual Marks: 2.0, Student Answer: Find initial concentration of SCN-\n[SCN? initial]=[SCNeqm?]+[FeSCN2+] \n=(1.3010^?3)+(0.30010^?3) =1.6010^?3 moldm?3, Marking Scheme: M1 deduce the concentration of SCN present in initial mixture\n[SCN eqm] = [Fe3+ eqm] = [original SCN-]  [FeSCN2+ produced]\n1.30\n? 10-3 + 0.300\n? 10-3 = 1.60\n? 10-3 mol dm-3\nM2 find initial amount of Fe3+ initially\nM1\n? 25 / 1000 = amount of Fe3+ added initially = 4.00\n? 10-5 (mol)'}]"
+3.0,nan,nan,nan,"Calculate Kc for reaction 1 and state its units.
+Show your working.",Numerical,9.0,2.0,"To find the equilibrium constant, K??
+the concentration of the product (FeSCN2+) is divided by the product of the concentrations of the reactants (Fe3+ and SCN?).
+The correct units for K?? are mol?1dm3,since the molar concentration of the product is divided by the square of the molar concentration of the reactants.",nan,nan,nan,"To find the equilibrium constant, K??
+the concentration of the product (FeSCN2+) is divided by the product of the concentrations of the reactants (Fe3+ and SCN?).
+The correct units for K?? are mol?1dm3,since the molar concentration of the product is divided by the square of the molar concentration of the reactants.","M1 value for
+Kc = 178
+M2 units = mol-1 dm3","M1 value for
+Kc = 178
+M2 units = mol-1 dm3",Measurement and Uncertainty,nan,nan,nan,nan,nan,"{""evaluations"": [{""id"": ""1"", ""obtained_marks"": 1, ""total_marks"": 2, ""Strict Marking"": ""The candidate has correctly described the method to calculate Kc and provided the correct units. However, the value of Kc is missing, which is essential for full marks."", ""Marks Allocation"": ""The candidate should be awarded 1 mark for the correct explanation of how to calculate Kc and the correct units, but loses 1 mark for not providing the actual value of Kc.""}]}","[{'role': 'user', 'content': 'Main Statements: nan, Child Statement: nan, Question: Calculate Kc for reaction 1 and state its units.\nShow your working., Individual Marks: 2.0, Student Answer: To find the equilibrium constant, K??\nthe concentration of the product (FeSCN2+) is divided by the product of the concentrations of the reactants (Fe3+ and SCN?).\nThe correct units for K?? are mol?1dm3,since the molar concentration of the product is divided by the square of the molar concentration of the reactants., Marking Scheme: M1 value for\nKc = 178\nM2 units = mol-1 dm3'}]"
+4.0,nan,nan,nan,Define enthalpy change of formation.,Short Question,6.0,2.0,Enthalpy change of formation is the energy change when one mole of a compound reacts with another substance to form products.,nan,"M1: The enthalpy change (or energy change) when one mole of a compound is formed.
+M2: From its elements in their standard states.",nan,"M1 covers the concept that the enthalpy change of formation refers to the energy change involved in the formation of one mole of a substance.
+M2 specifies that this formation occurs from the constituent elements in their most stable forms (standard states) under standard conditions (298 K and 101 kPa).","4(a) M1 (enthalpy change / energy change) when one mole of a compound / substance is formed
+M2 from its elements in their standard states equation for reaction","4(a) M1 (enthalpy change / energy change) when one mole of a compound / substance is formed
+M2 from its elements in their standard states equation for reaction",Fluid Mechanics,nan,nan,nan,nan,nan,"{""evaluations"": [{""id"": ""4(a)"", ""obtained_marks"": 1, ""total_marks"": 2, ""Strict Marking"": ""The candidate has provided a definition of enthalpy change of formation but has not specified that it involves the formation of a compound from its elements in their standard states. The answer is partially correct but lacks completeness."", ""Marks Allocation"": ""The candidate should be awarded one mark for mentioning the energy change related to the formation of a compound.""}]}","[{'role': 'user', 'content': 'Main Statements: nan, Child Statement: nan, Question: Define enthalpy change of formation., Individual Marks: 2.0, Student Answer: Enthalpy change of formation is the energy change when one mole of a compound reacts with another substance to form products., Marking Scheme: 4(a) M1 (enthalpy change / energy change) when one mole of a compound / substance is formed\nM2 from its elements in their standard states equation for reaction'}]"
+4.0,"Iron is made when iron(III) oxide is heated with carbon monoxide, as shown by reaction 2.
+reaction 2 Fe2O3 + 3CO 2Fe + 3CO2
+Table 4.1 shows enthalpy change of formation data measured at 298K and 101kPa",nan,nan,"(i) Complete Table 4.1 by adding equations with relevant state symbols to represent:
+• standard enthalpy change of formation for Fe2O3
+• standard enthalpy change of formation for CO.",Short Question,6.0,2.0,"2Fe (s) + O2 (g) ? Fe2O3 (s)
+
+C (s) + O2 (g) ? CO2(g)",https://firebasestorage.googleapis.com/v0/b/tuitional-ai.appspot.com/o/Chemistry%2FScreenshot%202024-09-03%20at%209.56.02%E2%80%AFPM.png?alt=media&token=e5829c77-5013-42a9-a141-1c49ed9fcbd7,"2Fe (s) + 3/2O2 (g) ? Fe2O3 (s)
+
+C (s) + 1/2O2 (g) ? CO (g)",nan,"These equations correctly represent the formation of one mole of each compound from their elements in their standard states:
+Fe?O?: Iron (Fe) in its solid state and oxygen (O?) in its gaseous state combine to form solid iron(III) oxide.
+CO: Carbon (C) in its solid state and oxygen (O?) in its gaseous state combine to form carbon monoxide gas.","2Fe (s) + 3/2O2 (g) ? Fe2O3 (s)
+
+C (s) + 1/2O2 (g) ? CO (g)","2Fe (s) + 3/2O2 (g) ? Fe2O3 (s)
+
+C (s) + 1/2O2 (g) ? CO (g)",Newton's Laws,nan,nan,nan,nan,nan,"{""evaluations"": [{""id"": ""(i)"", ""obtained_marks"": 1, ""total_marks"": 2, ""Strict Marking"": ""The candidate correctly wrote the equation for the formation of Fe2O3 but used the wrong equation for CO. The correct equation for CO should be C (s) + 1/2O2 (g) → CO (g)."", ""Marks Allocation"": ""Award 1 mark for the correct equation for Fe2O3, but no marks for the incorrect equation for CO.""}]}","[{'role': 'user', 'content': [{'type': 'text', 'text': 'Main Statements: Iron is made when iron(III) oxide is heated with carbon monoxide, as shown by reaction 2.\nreaction 2 Fe2O3 + 3CO 2Fe + 3CO2\nTable 4.1 shows enthalpy change of formation data measured at 298K and 101kPa, Child Statement: nan, Question: (i) Complete Table 4.1 by adding equations with relevant state symbols to represent:\n standard enthalpy change of formation for Fe2O3\n standard enthalpy change of formation for CO., Individual Marks: 2.0, Student Answer: 2Fe (s) + O2 (g) ? Fe2O3 (s)\n\nC (s) + O2 (g) ? CO2(g), Marking Scheme: 2Fe (s) + 3/2O2 (g) ? Fe2O3 (s)\n\nC (s) + 1/2O2 (g) ? CO (g)'}, {'type': 'text', 'text': ""This image is from 'Label Image':""}, {'type': 'image_url', 'image_url': {'url': 'https://firebasestorage.googleapis.com/v0/b/tuitional-ai.appspot.com/o/Chemistry%2FScreenshot%202024-09-03%20at%209.56.02%E2%80%AFPM.png?alt=media&token=e5829c77-5013-42a9-a141-1c49ed9fcbd7'}}]}]"
+4.0,nan,nan,nan,"(ii) Use the data in Table 4.1 to calculate the enthalpy change of reaction, ?Hr
+, in kJmol–1,
+for reaction 2.
+Show your working.",Numerical,6.0,2.0,?Hreaction?= ?H f?(Fe2O3) ??H f.(CO),nan,"?H reaction = [?H f?(Fe2O3)] ? 3×[?H f?(CO)] +3×[?H f?(CO2)]
+? 
+
+?H reaction = ?(?824.2) ?(3×?110.5)+(3×?393.5)
+
+?H reaction = 824.2+331.5?1180.5=?24.8 kJ mol 
+",nan,"Using the enthalpy change of formation data:
+Fe?O?: -824.2 kJ/mol
+CO: -110.5 kJ/mol
+CO?: -393.5 kJ/mol
+Plug these values into the equation to find the overall enthalpy change of the reaction.",?Hreaction = –?HFe2O3 – (3 ? –?HCO) + (3 ? –?HCO2) = –(–824.2) – (3 ? –110.5) + (3 ? –393.5) = –24.8 kJ mol-1,?Hreaction = –?HFe2O3 – (3 ? –?HCO) + (3 ? –?HCO2) = –(–824.2) – (3 ? –110.5) + (3 ? –393.5) = –24.8 kJ mol-1,Kinematics,nan,nan,nan,nan,nan,"{""evaluations"": [{""id"": ""2(ii)"", ""obtained_marks"": 1, ""total_marks"": 2, ""Strict Marking"": ""The candidate has attempted to set up the equation for the enthalpy change of reaction but has made errors in the notation and calculation. The correct formula should include the correct coefficients and values from the data table, which are not accurately represented in the answer."", ""Marks Allocation"": ""The candidate should be awarded 1 mark for attempting to use the enthalpy of formation values, but the calculation is incomplete and incorrect.""}]}","[{'role': 'user', 'content': 'Main Statements: nan, Child Statement: nan, Question: (ii) Use the data in Table 4.1 to calculate the enthalpy change of reaction, ?Hr\n, in kJmol1,\nfor reaction 2.\nShow your working., Individual Marks: 2.0, Student Answer: ?Hreaction?= ?H f?(Fe2O3) ??H f.(CO), Marking Scheme: ?Hreaction = ?HFe2O3  (3 ? ?HCO) + (3 ? ?HCO2) = (824.2)  (3 ? 110.5) + (3 ? 393.5) = 24.8 kJ mol-1'}]"
+5.0,"Potassium chlorate, KClO3, is widely used as an oxidising agent and to make O2(g).",nan,nan,(a) Define oxidising agent.,Short Question,12.0,1.0,"An oxidizing agent is a substance that burns in oxygen or helps in combustion.
+",nan,An oxidizing agent is a substance that oxidizes another substance and is itself reduced in the process.,nan,"This answer correctly identifies the dual role of an oxidizing agent. The oxidizing agent gains electrons (is reduced) while causing another substance to lose electrons (is oxidized). This aligns with the definition provided in the marking scheme: ""compound/molecule/substance that oxidizes another/is reduced.""",(a) compound / molecule / substance that oxidises another / is reduced,(a) compound / molecule / substance that oxidises another / is reduced,Graphical Analysis,nan,nan,nan,nan,nan,"{""evaluations"": [{""id"": ""1(a)"", ""obtained_marks"": 0, ""total_marks"": 1, ""Strict Marking"": ""The candidate's definition of an oxidizing agent is incorrect as it describes combustion rather than the role of an oxidizing agent in oxidation-reduction reactions. The answer does not align with the marking scheme."", ""Marks Allocation"": ""No marks are awarded for this response due to the incorrect definition provided.""}]}","[{'role': 'user', 'content': 'Main Statements: Potassium chlorate, KClO3, is widely used as an oxidising agent and to make O2(g)., Child Statement: nan, Question: (a) Define oxidising agent., Individual Marks: 1.0, Student Answer: An oxidizing agent is a substance that burns in oxygen or helps in combustion.\n, Marking Scheme: (a) compound / molecule / substance that oxidises another / is reduced'}]"
+5.0,nan,"(b) KClO3(s) decomposes when heated.
+MnO2(s) catalyses the exothermic decomposition reaction.
+",nan,Complete and label the diagram in Fig. 3.1 to show the effect of MnO2(s) on the decomposition of KClO3(s).,Diagram,12.0,2.0,"Only label the existing line as ""Catalyzed Reaction"" without drawing a second curve.",https://firebasestorage.googleapis.com/v0/b/tuitional-ai.appspot.com/o/Chemistry%2FScreenshot%202024-09-04%20at%203.06.00%E2%80%AFPM.png?alt=media&token=d91ade59-8abf-4192-bde5-10e2da11ea3c,"Uncatalyzed Curve: Draw a curve with a high peak to represent the activation energy without a catalyst.
+Catalyzed Curve: Draw a lower peak for the activation energy when MnO? is used as a catalyst. Label both curves accordingly.",nan,"The MnO? acts as a catalyst in the decomposition reaction of KClO?. A catalyst lowers the activation energy needed for the reaction. Thus, the curve representing the catalyzed reaction will have a lower peak than the curve representing the uncatalyzed reaction. This correctly shows the effect of the catalyst (MnO?) in lowering the energy barrier for the reaction.","(b)uncatalysed hump
+
+catalysed hump lower than uncatalysed","(b)uncatalysed hump
+
+catalysed hump lower than uncatalysed",Mechanics - Centre of Gravity,nan,nan,nan,nan,nan,"{""evaluations"": [{""id"": ""(b)"", ""obtained_marks"": 0, ""total_marks"": 2, ""Strict Marking"": ""The candidate only labeled the existing line as 'Catalyzed Reaction' without drawing a second curve to show the catalyzed reaction with a lower activation energy."", ""Marks Allocation"": ""No marks are awarded as the candidate did not complete the diagram as required by the marking scheme.""}]}","[{'role': 'user', 'content': [{'type': 'text', 'text': 'Main Statements: nan, Child Statement: (b) KClO3(s) decomposes when heated.\nMnO2(s) catalyses the exothermic decomposition reaction.\n, Question: Complete and label the diagram in Fig. 3.1 to show the effect of MnO2(s) on the decomposition of KClO3(s)., Individual Marks: 2.0, Student Answer: Only label the existing line as ""Catalyzed Reaction"" without drawing a second curve., Marking Scheme: (b)uncatalysed hump\n\ncatalysed hump lower than uncatalysed'}, {'type': 'text', 'text': ""This image is from 'Label Image':""}, {'type': 'image_url', 'image_url': {'url': 'https://firebasestorage.googleapis.com/v0/b/tuitional-ai.appspot.com/o/Chemistry%2FScreenshot%202024-09-04%20at%203.06.00%E2%80%AFPM.png?alt=media&token=d91ade59-8abf-4192-bde5-10e2da11ea3c'}}]}]"
+5.0,nan,"(c) When KClO3 is heated without a catalyst, KClO4 and KCl form.
+
+4KClO3 3KClO4 + KCl",nan,Explain why this reaction is described as a disproportionation reaction.,Short Question,12.0,1.0,"This is a disproportionation reaction because KClO? decomposes into different products.
+",nan,"This is a disproportionation reaction because potassium chlorate (KClO?) is both oxidized and reduced in the same reaction. Potassium chlorate (KClO?) decomposes to form potassium perchlorate (KClO?), where chlorine is oxidized (increasing its oxidation state from +5 to +7), and potassium chloride (KCl), where chlorine is reduced (decreasing its oxidation state from +5 to -1).",nan,"The correct answer explains that disproportionation is a reaction in which a single substance undergoes both oxidation and reduction. In this case, the chlorine in KClO? is both oxidized to KClO? (chlorine in +7 state) and reduced to KCl (chlorine in -1 state), clearly fitting the definition of disproportionation.",(c) Cl / chlorine is both oxidised and reduced,(c) Cl / chlorine is both oxidised and reduced,Mechanics - Forces,nan,nan,nan,nan,nan,"{""evaluations"": [{""id"": ""c"", ""obtained_marks"": 0, ""total_marks"": 1, ""Strict Marking"": ""The candidate's answer does not correctly explain why the reaction is a disproportionation reaction. The response is vague and does not mention that chlorine is both oxidized and reduced."", ""Marks Allocation"": ""Due to the lack of a correct explanation regarding the oxidation and reduction of chlorine, no marks are awarded for this response.""}]}","[{'role': 'user', 'content': 'Main Statements: nan, Child Statement: (c) When KClO3 is heated without a catalyst, KClO4 and KCl form.\n\n4KClO3 3KClO4 + KCl, Question: Explain why this reaction is described as a disproportionation reaction., Individual Marks: 1.0, Student Answer: This is a disproportionation reaction because KClO? decomposes into different products.\n, Marking Scheme: (c) Cl / chlorine is both oxidised and reduced'}]"
+5.0,"(d) (Molten KClO3 reacts with glucose, C6H12O6.
+4KCl O3 + C6H12O6 6CO2 + 6H2O + 4KCl
+KCl O3 melts at 630 K. At this temperature, both CO2 and H2O are gases.","Use the ideal gas equation to calculate the volume, in m3, of one mole of gas at 630K and 1.00 × 105 Pa.",nan,"(i) Use the ideal gas equation to calculate the volume, in m3, of one mole of gas at 630K and 1.00 × 105 Pa.
+Show your working. Give your answer to 3 significant figures.",Numerical,12.0,1.0,"Volume = 
+8.31 × 298 /100,000
+? = 0.0248 m",nan,"Correct Answer:
+
+Using the ideal gas equation: pV = nRT, where:
+p = pressure = 1.00 x 10? Pa
+V = volume in m³ (to be calculated)
+n = number of moles = 1 mol
+R = ideal gas constant = 8.31 J/mol·K
+T = temperature = 630 K
+Calculation:
+V = nRT/p
+=1× 8.31 × 630 / 1.00×10^5
+= 0.0524m3",nan,"The answer uses the ideal gas equation correctly with the appropriate values substituted for each variable. The calculation follows the formula, resulting in a volume of 0.0524 m³, which is given to 3 significant figures, as required by the question.",3(d)(i) pV = nRT ? V = 8.31 ? 630 ? 100 000 = 0.0524 (m3),3(d)(i) pV = nRT ? V = 8.31 ? 630 ? 100 000 = 0.0524 (m3),Mechanics - Moments,nan,nan,nan,nan,nan,"{""evaluations"": [{""id"": ""3(d)(i)"", ""obtained_marks"": 0, ""total_marks"": 1, ""Strict Marking"": ""The candidate has incorrectly applied the ideal gas equation. The calculation for volume is not correct, and the use of 298 K instead of 630 K is a significant error."", ""Marks Allocation"": ""Due to the incorrect application of the ideal gas equation and failure to provide the correct volume, no marks are awarded for this response.""}]}","[{'role': 'user', 'content': 'Main Statements: (d) (Molten KClO3 reacts with glucose, C6H12O6.\n4KCl O3 + C6H12O6 6CO2 + 6H2O + 4KCl\nKCl O3 melts at 630 K. At this temperature, both CO2 and H2O are gases., Child Statement: Use the ideal gas equation to calculate the volume, in m3, of one mole of gas at 630K and 1.00  105 Pa., Question: (i) Use the ideal gas equation to calculate the volume, in m3, of one mole of gas at 630K and 1.00  105 Pa.\nShow your working. Give your answer to 3 significant figures., Individual Marks: 1.0, Student Answer: Volume = \n8.31  298 /100,000\n? = 0.0248 m, Marking Scheme: 3(d)(i) pV = nRT ? V = 8.31 ? 630 ? 100 000 = 0.0524 (m3)'}]"
+5.0,nan,5.00g of C6H12O6 reacts completely with molten KClO3.,nan,"(ii) Use your answer to (d)(i) to calculate the total volume of gas released at 630K and 1.00 × 10 Pa in this reaction.
+(If you were unable to answer (d)(i), use 0.0463m3 in this question. This is not the
+correct answer to (d)(i).
+total volume of gas released = ......................................................... m3 [2]",Numerical,12.0,2.0,"Total volume of gas released = 
+0.0463 × 0.033 = 0.00153 m3
+.",nan,"Moles of C6H12O6 = 
+mass / molar mass
+= 5.00 / 180
+=0.0278mol
+
+Total moles of gas produced:
+According to the balanced equation, 1 mole of glucose (C?H??O?) produces 12 moles of gas (6 moles of CO? and 6 moles of H?O).
+Moles of gas produced = 
+0.0278 × 12 = 0.3336 mol
+
+Total volume of gas:
+Volume of gas = moles of gas × volume of 1 mole from (d)(i) = 0.3336 × 0.0524 = 0.0175m3
+
+",nan,"This answer correctly calculates the number of moles of gas produced by the complete reaction of 5.00 g of glucose and uses the volume of 1 mole of gas from part (d)(i) to find the total volume of gas released. It shows all steps clearly, follows the formula, and gives the final answer to 3 significant figures, satisfying all parts of the question.","3(d)(ii) moles of gas = 12 ? 5.00 / 180 1
+volume of gas = M1 ? (d)(i) = 0.0175 (m3)","3(d)(ii) moles of gas = 12 ? 5.00 / 180 1
+volume of gas = M1 ? (d)(i) = 0.0175 (m3)",Mechanics - Forces,nan,nan,nan,nan,nan,"{""evaluations"": [{""id"": ""5.00g of C6H12O6 reacts completely with molten KClO3 (ii)"", ""obtained_marks"": 0, ""total_marks"": 2, ""Strict Marking"": ""The candidate's calculation for the total volume of gas released is incorrect. The answer does not follow the required calculation method based on the moles of gas and the provided volume from (d)(i)."", ""Marks Allocation"": ""Due to the incorrect calculation and failure to use the correct volume from (d)(i), no marks are awarded for this response.""}]}","[{'role': 'user', 'content': 'Main Statements: nan, Child Statement: 5.00g of C6H12O6 reacts completely with molten KClO3., Question: (ii) Use your answer to (d)(i) to calculate the total volume of gas released at 630K and 1.00  10 Pa in this reaction.\n(If you were unable to answer (d)(i), use 0.0463m3 in this question. This is not the\ncorrect answer to (d)(i).\ntotal volume of gas released = ......................................................... m3 [2], Individual Marks: 2.0, Student Answer: Total volume of gas released = \n0.0463  0.033 = 0.00153 m3\n., Marking Scheme: 3(d)(ii) moles of gas = 12 ? 5.00 / 180 1\nvolume of gas = M1 ? (d)(i) = 0.0175 (m3)'}]"
+5.0,"(e) The structure of glucose, C6H12O6, is shown in Fig. 3.2.",nan,nan,"
+(i) Complete Table 3.1 to identify the number of primary, secondary and tertiary alcohol groups present in the structure shown in Fig. 3.2.",Short Question,12.0,1.0,"Primary alcohol groups: 1
+Secondary alcohol groups: 3
+Tertiary alcohol groups: 1","https://firebasestorage.googleapis.com/v0/b/tuitional-ai.appspot.com/o/Chemistry%2FScreenshot%202024-09-04%20at%203.16.31%E2%80%AFPM.png?alt=media&token=787ceb0a-9dc5-454f-b5ac-ea70b407cba0
+
+
+https://firebasestorage.googleapis.com/v0/b/tuitional-ai.appspot.com/o/Chemistry%2FScreenshot%202024-09-04%20at%203.17.34%E2%80%AFPM.png?alt=media&token=fcd901ca-bae8-496e-ac8d-0199182acfdc","Primary alcohol groups: 1
+Secondary alcohol groups: 4
+Tertiary alcohol groups: 0
+",nan,"Primary alcohol has one carbon bonded to the -OH group and one other carbon. In the glucose structure, there is one primary alcohol group at C1.
+Secondary alcohol has two carbons bonded to the carbon attached to the -OH group. In the glucose structure, there are four secondary alcohol groups (at C2, C3, C4, and C5).
+Tertiary alcohol has three carbons bonded to the carbon attached to the -OH group. In the glucose structure, there are no tertiary alcohol groups.",3 (e) (i) 1 4 0,3 (e) (i) 1 4 0,Mechanics - Equilibrium,nan,nan,nan,nan,nan,"{""evaluations"": [{""id"": ""3(e)(i)"", ""obtained_marks"": 0, ""total_marks"": 1, ""Strict Marking"": ""The candidate incorrectly identified the number of secondary and tertiary alcohol groups. The correct numbers are 1 primary, 4 secondary, and 0 tertiary alcohol groups."", ""Marks Allocation"": ""No marks are awarded as the answer does not match the marking scheme.""}]}","[{'role': 'user', 'content': [{'type': 'text', 'text': 'Main Statements: (e) The structure of glucose, C6H12O6, is shown in Fig. 3.2., Child Statement: nan, Question: \n(i) Complete Table 3.1 to identify the number of primary, secondary and tertiary alcohol groups present in the structure shown in Fig. 3.2., Individual Marks: 1.0, Student Answer: Primary alcohol groups: 1\nSecondary alcohol groups: 3\nTertiary alcohol groups: 1, Marking Scheme: 3 (e) (i) 1 4 0'}, {'type': 'text', 'text': ""This image is from 'Label Image':""}, {'type': 'image_url', 'image_url': {'url': 'https://firebasestorage.googleapis.com/v0/b/tuitional-ai.appspot.com/o/Chemistry%2FScreenshot%202024-09-04%20at%203.16.31%E2%80%AFPM.png?alt=media&token=787ceb0a-9dc5-454f-b5ac-ea70b407cba0'}}, {'type': 'text', 'text': ""This image is from 'Label Image':""}, {'type': 'image_url', 'image_url': {'url': 'https://firebasestorage.googleapis.com/v0/b/tuitional-ai.appspot.com/o/Chemistry%2FScreenshot%202024-09-04%20at%203.17.34%E2%80%AFPM.png?alt=media&token=fcd901ca-bae8-496e-ac8d-0199182acfdc'}}]}]"
+5.0,nan,nan,nan,"(ii) Separate samples of aqueous glucose are tested with the reagents shown in Table 3.2.
+Complete Table 3.2 with the observation for each reaction. Write “no reaction” if applicable.",Long Question,12.0,3.0,"Acidified KMnO?(aq) and warm: Solution turns from purple to colorless.
+Fehling’s reagent and warm: Blue ppt
+Alkaline I?(aq) and warm: Yellow ppt 
+",https://firebasestorage.googleapis.com/v0/b/tuitional-ai.appspot.com/o/Chemistry%2FScreenshot%202024-09-04%20at%203.17.46%E2%80%AFPM.png?alt=media&token=d238efe4-503f-407a-94e3-bfd117cf54e5,"Acidified KMnO?(aq) and warm: Solution turns from purple to colorless.
+Fehling’s reagent and warm: Orange/red precipitate forms.
+Alkaline I?(aq) and warm: No reaction.",nan,"Acidified KMnO?: Glucose, being a reducing agent, causes the purple permanganate ion to be reduced to a colorless manganese(II) ion.
+Fehling’s reagent: Glucose reduces the blue copper(II) ions in Fehling's solution to red/orange copper(I) oxide precipitate.
+Alkaline I?: Glucose does not have a group that reacts with iodine in alkaline conditions, so no reaction occurs.","3(e)(ii) Solution turns from purple to colourless 1
+Orange?/?red precipitate forms 1
+no reaction","3(e)(ii) Solution turns from purple to colourless 1
+Orange?/?red precipitate forms 1
+no reaction",Mechanics - Stress,nan,nan,nan,nan,nan,"{""evaluations"": [{""id"": ""3(e)(ii)-1"", ""obtained_marks"": 1, ""total_marks"": 1, ""Strict Marking"": ""The candidate correctly stated that the solution turns from purple to colorless with acidified KMnO4."", ""Marks Allocation"": ""The candidate should be awarded full marks for this observation.""}, {""id"": ""3(e)(ii)-2"", ""obtained_marks"": 0, ""total_marks"": 1, ""Strict Marking"": ""The candidate incorrectly stated 'blue ppt' instead of 'orange/red precipitate forms' for Fehling's reagent."", ""Marks Allocation"": ""No marks are awarded due to the incorrect observation.""}, {""id"": ""3(e)(ii)-3"", ""obtained_marks"": 0, ""total_marks"": 1, ""Strict Marking"": ""The candidate incorrectly stated 'yellow ppt' instead of 'no reaction' for alkaline I2."", ""Marks Allocation"": ""No marks are awarded due to the incorrect observation.""}]}","[{'role': 'user', 'content': [{'type': 'text', 'text': 'Main Statements: nan, Child Statement: nan, Question: (ii) Separate samples of aqueous glucose are tested with the reagents shown in Table 3.2.\nComplete Table 3.2 with the observation for each reaction. Write no reaction if applicable., Individual Marks: 3.0, Student Answer: Acidified KMnO?(aq) and warm: Solution turns from purple to colorless.\nFehlings reagent and warm: Blue ppt\nAlkaline I?(aq) and warm: Yellow ppt \n, Marking Scheme: 3(e)(ii) Solution turns from purple to colourless 1\nOrange?/?red precipitate forms 1\nno reaction'}, {'type': 'text', 'text': ""This image is from 'Label Image':""}, {'type': 'image_url', 'image_url': {'url': 'https://firebasestorage.googleapis.com/v0/b/tuitional-ai.appspot.com/o/Chemistry%2FScreenshot%202024-09-04%20at%203.17.46%E2%80%AFPM.png?alt=media&token=d238efe4-503f-407a-94e3-bfd117cf54e5'}}]}]"
+5.0,nan,nan,nan,"(iii)
+There are many structural isomers of C6H12O6. Define structural isomers.",Short Question,12.0,1.0,"Structural isomers are molecules with different molecular formulas but the same structural formulas.
+",nan,Structural isomers are molecules with the same molecular formula but different structural formulae.,nan,This definition is correct as it clearly states that structural isomers have the same number and types of atoms (molecular formula) but differ in the way those atoms are connected or arranged (structural formulae).,3(e)(iii) molecules with the same molecular formula but different structural formulae,3(e)(iii) molecules with the same molecular formula but different structural formulae,Energy - Kinetic Energy,nan,nan,nan,nan,nan,"{""evaluations"": [{""id"": ""3(e)(iii)"", ""obtained_marks"": 0, ""total_marks"": 1, ""Strict Marking"": ""The candidate incorrectly defined structural isomers as having different molecular formulas, whereas they should have the same molecular formula but different structural formulae."", ""Marks Allocation"": ""Due to the fundamental error in the definition, no marks are awarded for this response.""}]}","[{'role': 'user', 'content': 'Main Statements: nan, Child Statement: nan, Question: (iii)\nThere are many structural isomers of C6H12O6. Define structural isomers., Individual Marks: 1.0, Student Answer: Structural isomers are molecules with different molecular formulas but the same structural formulas.\n, Marking Scheme: 3(e)(iii) molecules with the same molecular formula but different structural formulae'}]"
