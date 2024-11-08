@@ -1,4 +1,3 @@
-
 import time
 from utils.json_utils import try_parse_json_or_fix
 from utils.encoding_utils import decode_and_fix_text
@@ -13,12 +12,12 @@ def send_evaluation_request(instructions, row_data, image_contents=None):
     row_data_decoded = row_data.apply(decode_and_fix_text)
 
     joined_statements = (
-        f"Main Statements: {row_data_decoded['Main Statements']}, "
-        f"Child Statement: {row_data_decoded['child statement']}, "
-        f"Question: {row_data_decoded['Question']}, "
-        f"Individual Marks: {row_data_decoded['Individual Marks']}, "
-        f"Student Answer: {row_data_decoded['Student Answer']}, "
-        f"Marking Scheme: {row_data_decoded['Marking Scheme']}"
+        f"Main Statements: {row_data_decoded.get('Main Statements', '')}, "
+        f"Child Statement: {row_data_decoded.get('child statement', '')}, "
+        f"Question: {row_data_decoded.get('Question', '')}, "
+        f"Individual Marks: {row_data_decoded.get('Individual Marks', '')}, "
+        f"Student Answer: {row_data_decoded.get('Student Answer', '')}, "
+        f"Marking Scheme: {row_data_decoded.get('Marking Scheme', '')}"
     )
 
     content = [{"type": "text", "text": joined_statements}]
@@ -50,7 +49,7 @@ def send_evaluation_request(instructions, row_data, image_contents=None):
                 model=MODEL,
                 messages=messages,
                 temperature=0.0,
-                response_format = { "type": "json_object"}
+                response_format={"type": "json_object"}
             )
             parsed_json, is_valid = try_parse_json_or_fix(completion.choices[0].message.content)
             if not is_valid:

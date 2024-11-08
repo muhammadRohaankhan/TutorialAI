@@ -1,4 +1,3 @@
-import datetime
 import json
 import pandas as pd
 from config import OUTPUT_FILE_PATH
@@ -13,44 +12,47 @@ app = Flask(__name__)
 def evaluate():
     print("Received evaluation request.")
     data = request.json
-    file_path = data.get('file_path')
     instruction_file = data.get('instruction_file')
+    input_data = data.get('data')
 
-    if not file_path or not instruction_file:
-        return jsonify({"status": "error", "message": "Missing file path or instruction file."})
+    if not instruction_file or not input_data:
+        return jsonify({"status": "error", "message": "Missing instruction file or data."})
 
     instructions = load_instructions(instruction_file)
-    try:
-        df = pd.read_csv(file_path, encoding='cp1252')
-    except Exception as e:
-        print(e)
-        df = pd.read_csv(file_path, encoding='utf-8')
     evaluations = []
 
-    ts = int(datetime.datetime.now().timestamp())
+    if isinstance(input_data, dict):
+        input_data_list = [input_data]
+    elif isinstance(input_data, list):
+        input_data_list = input_data
+    else:
+        return jsonify({"status": "error", "message": "Invalid data format. 'data' should be a dictionary or a list of dictionaries."})
 
-    for row_idx, row in df.iterrows():
+    for idx, item in enumerate(input_data_list):
+        row = pd.Series(item)
+
         if row.isnull().all():
-            print(f"Row {row_idx} is entirely null, skipping this row.")
+            print(f"Input data at index {idx} is empty or null, skipping.")
             continue
 
-        print(f"Evaluating row {row_idx}...")
+        print(f"Evaluating input data at index {idx}...")
+
         if pd.notna(row.get('Type of Question')):
             question_type = row['Type of Question'].strip().lower()
             if question_type not in ["short question", "numerical", "long question", "diagram", "equation"]:
-                print(f"Row {row_idx} has an invalid or unsupported type of question, skipping...")
+                print(f"Input data at index {idx} has an invalid or unsupported 'Type of Question', skipping...")
                 continue
         else:
-            print(f"Row {row_idx} has missing 'Type of Question', skipping...")
+            print(f"Input data at index {idx} has missing 'Type of Question', skipping...")
             continue
 
-        if pd.isna(row['Individual Marks']) or (pd.isna(row['Marking Scheme']) and pd.isna(row['Marking Scheme (Image)'])) or (pd.isna(row['Student Answer']) and question_type not in ['diagram', 'equation']):
-            if pd.isna(row['Individual Marks']):
-                print(f"Row {row_idx} is missing 'Individual Marks'")
-            if pd.isna(row['Marking Scheme']) and pd.isna(row['Marking Scheme (Image)']):
-                print(f"Row {row_idx} is missing 'Marking Scheme'")
-            if pd.isna(row['Student Answer']) and question_type not in ['diagram', 'equation']:
-                print(f"Row {row_idx} is missing 'Student Answer'")
+        if pd.isna(row.get('Individual Marks')) or (pd.isna(row.get('Marking Scheme')) and pd.isna(row.get('Marking Scheme (Image)'))) or (pd.isna(row.get('Student Answer')) and question_type not in ['diagram', 'equation']):
+            if pd.isna(row.get('Individual Marks')):
+                print(f"Input data at index {idx} is missing 'Individual Marks'")
+            if pd.isna(row.get('Marking Scheme')) and pd.isna(row.get('Marking Scheme (Image)')):
+                print(f"Input data at index {idx} is missing 'Marking Scheme'")
+            if pd.isna(row.get('Student Answer')) and question_type not in ['diagram', 'equation']:
+                print(f"Input data at index {idx} is missing 'Student Answer'")
             continue
 
         image_contents = []
@@ -71,7 +73,9 @@ def evaluate():
             "GPT Response": json.dumps(response, ensure_ascii=False),
             "Prompt": messages
         })
-        save_to_csv(OUTPUT_FILE_PATH.replace(".csv", f"_{str(ts)}.csv"), evaluations)
+
+        save_to_csv(OUTPUT_FILE_PATH, evaluations)
+
     print("Evaluation complete.")
     return jsonify({"status": "success", "message": "Evaluation complete.", "evaluations": evaluations})
 
