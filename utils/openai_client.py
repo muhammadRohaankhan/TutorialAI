@@ -3,9 +3,9 @@ from utils.json_utils import try_parse_json_or_fix
 from utils.encoding_utils import decode_and_fix_text
 from utils.openai_helper import get_openai_client
 
-def send_evaluation_request(instructions, row_data, image_contents=None):
+def send_evaluation_request(instructions, row_data, image_contents=None, model_name = "gpt-4o-mini"):
     print("Sending evaluation request...")
-    MODEL = "gpt-4o-mini"
+    MODEL = model_name
     messages = [{"role": "system", "content": instructions}]
     client = get_openai_client()
 
@@ -34,7 +34,6 @@ def send_evaluation_request(instructions, row_data, image_contents=None):
                 "type": "image_url",
                 "image_url": {"url": url}
             })
-        MODEL = "gpt-4o-2024-08-06"
         messages.append({"role": "user", "content": content})
     else:
         messages.append({"role": "user", "content": joined_statements})

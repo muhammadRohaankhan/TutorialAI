@@ -9,3 +9,4 @@ utils/__pycache__
 # Data folders
 Output_File/*
 Output_File/costing
+Logs/*
