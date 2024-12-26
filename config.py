@@ -8,6 +8,7 @@ OPENAI_API_KEY = config_file['openai-api-key']
 
 IMAGE_DIR = config_file["image-folder"]
 OUTPUT_DIR = config_file["output-folder"]
+LOG_FOLDER = config_file["log-folder"]
 COSTING_DIR = os.path.join(OUTPUT_DIR, "costing")
 
 OUTPUT_FILE_PATH = os.path.join(OUTPUT_DIR, "evaluated_output.csv")
